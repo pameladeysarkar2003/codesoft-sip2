@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height:100vh;
+    width:100%;
+    position: relative;
+    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fportfolio&psig=AOvVaw35dCOJ-wpYzlVhPc6CP4cA&ust=1716301452669000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjqpKW3nIYDFQAAAAAdAAAAABAE);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box{
+    height:86vh;
+    width:75%;
+    padding:0 20px;
+    background-color: rgba(255,255,255,0.1);
+    z-index:10;
+    border:2px solid rgba(255,255,255, 0.7);
+    border-radius: 20px;
+    display: flex;
+    backdrop-filter: blur(25px);
+    box-shadow:-15px 17px 17px rgba(10,10,10,0.15);
+}
+.container::after{
+    content:'';
+    position:absolute;
+    height:300px;
+    width:300px;
+    background: white;
+    transform: translate(490px,150px);
+    border-radius: 50%;
+}
+.container .box nav{
+    height:7%;
+    width:95%;
+    position: absolute;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:15px auto;
+    padding: 20px;
+}
+.container .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.container .box nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: aquamarine;
+    transition: 0.4s;
+}
+.container .box nav ul li a:hover{
+    color:blueviolet;
+}
+nav .logo{
+    font-size:35px;
+    color:bisque;
+    font-weight:bold;
+    margin-top:5px;
+    margin-left:30px;
+    text-decoration: none;
+}
+.container .box .container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin-top: 8%;
+    padding-left: 80px;
+}
+.container .box .contains .section.1{
+    position: relative;
+    width:40%;
+}
+.container .box .section-1 h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color:blanchedalmond;
+}
+.contains .section-1 h3{
+    font-size: 24px;
+    color:aquamarine;
+    margin-bottom:10px;
+}
+.contains .section-1 p{
+    font-size: 10px;
+    color:blue;
+    margin-bottom: 50px;
+}
+..contains .section-1 .btn{
+    padding:15px 20px;
+    background-color: blueviolet;
+    border:1px solid blueviolet;
+    color:antiquewhite;
+    border:5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition:0.36s;
+}
+.contains .section-1 .btn:hover{
+    background-color: azure;
+    color: blue;
+}
+.contains .section-3{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    position: absolute;
+    left:10px;
+    top:30%;
+}
+.contains .section
